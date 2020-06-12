@@ -36,7 +36,7 @@ class Mybot:
             no=0
             for x in data:
                 no += 1
-                kumpuldata =kumpuldata+ str(x)
+                kumpuldata = str(no) + kumpuldata + str(x) + '\n'
                 print(kumpuldata)
                 kumpuldata = kumpuldata.replace('(', '')
                 kumpuldata = kumpuldata.replace(')', '')
